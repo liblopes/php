@@ -1,14 +1,19 @@
-<?php
+<!DOCTYPE html>
+<html>
 
-echo '<h1>Exercicio conversao</h1>
+	<h1> Conversao dólar </h1>
 		<form action="./exercicio.dolar.php" method="post">
 			<input type="number" name="dolar" placeholder="Digite o valor em dolar" required="">
-			
-			<br/>
+			<br><br>
 			<input type="submit" value="OK">
-		</form>';
+			<br><br>
+		</form>
+
+		</html>
+<?php
 
 $dolar = $_POST['dolar'];
+
 $conversao = $dolar*4.30;
 
 echo ("O valor em reais é: {$conversao}");
