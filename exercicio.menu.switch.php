@@ -35,7 +35,7 @@ $operacao = $_REQUEST['operacao'];
 
         switch($operacao){
 
-            case 'Somar':
+            case 'Somar';
             $soma = $numero1 + $numero2;
 
             echo "Soma = $soma";
