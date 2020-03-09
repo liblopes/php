@@ -1,12 +1,13 @@
 <!Doctype html>
 <html>
-    <form method="post" action="index.php">
-        <h1> Contato</h1>
+    <form method="post" action="exercicio.temperatura.php">
+        <h1> Temperatura </h1>
 
-        <label for="numero"> Numero</label>
+        <label for="numero"> Temperatura</label>
         <input type="number" name="numero"/><br><br>
 
         <input type="submit" value="Enviar"/>
+        <br><br>
     </form>
 
 </html>
@@ -15,7 +16,7 @@
 
     if(isset($_POST['numero'])){
         $numero = $_POST['numero'];
-        echo $numero;
+        
 
 
     if($numero <= 18)
@@ -28,7 +29,7 @@
         $clima = "O clima e quente";
     
     else
-        $clima = "Muito quente"
+        $clima = "Muito quente";
         
     echo $clima;
 
