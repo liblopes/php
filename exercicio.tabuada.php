@@ -28,7 +28,7 @@ for($i=0; $i<=10; $i++){
     $tabuada = $numero*$i;
    
 
-    echo "{$numero} x {$i} = {$tabuada}\n\n";
+    echo "{$numero} x {$i} = {$tabuada} <br>";
     
 
 }
